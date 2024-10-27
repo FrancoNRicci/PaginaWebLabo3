@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Sherlock</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <img src="imagenes/logo.jpg" alt="Logo-Sherlock">
+        <nav>
+            <ul>
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="personajes.html">personajes</a></li>
+                <li><a href="galeria.html">galeria</a></li>
+                <li><a href="reseñas.html">reseñas</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form action="#" method="post">
+        <h2>Formulario de Contacto</h2>
+
+        <div class="comando">
+            <label for="nombres">Nombre/s</label>
+            <input type="text" id="nombres" placeholder="Sherlock" required>
+        </div>
+
+        <div class="comando">
+            <label for="apellidos">Apellido/s</label>
+            <input type="text" id="apellidos" placeholder="Holmes" required>
+        </div>
+
+        <div class="comando">
+            <label for="mail">Email</label>
+            <input type="email" id="mail" placeholder="ejemplo@gmail.com" required>
+        </div>
+
+        <div class="comando">
+            <label for="telefonos">Teléfono</label>
+            <input type="tel" id="telefonos" placeholder="11-2218-2218" required>
+        </div>
+
+        <div class="comando">
+            <label for="mensajes">Mensaje</label>
+            <textarea rows="10" id="mensajes" placeholder="Deje su mensaje..." required></textarea>
+        </div>
+
+        <div class="boton">
+            <input type="submit">
+        </div>
+    </form>
+
+    <footer class="pie">
+        <img src="imagenes/redes/youtube3.png" alt="youtube">
+        <img src="imagenes/redes/x2.png" alt="X">
+        <img src="imagenes/redes/facebook3.png" alt="facebook">
+        <img src="imagenes/redes/instagram3.png" alt="instagram">
+    </footer>
+
+    <script src="js/code.js"></script>
+    
+</body>
+</html>
