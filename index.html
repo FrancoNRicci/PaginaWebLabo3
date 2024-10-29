@@ -3,6 +3,7 @@
 <head>
 
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sherlock</title>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
@@ -15,8 +16,12 @@
 <body>
 
     <header>
-        <img src="imagenes/logo.jpg" alt="Logo-Sherlock">
-        <nav>
+        <div>
+            <a href="index.html"><img src="imagenes/logo.jpg" alt="Logo-Sherlock"></a>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar" class="">
             <ul>
                 <li><a href="index.html">inicio</a></li>
                 <li><a href="personajes.html">personajes</a></li>
@@ -78,7 +83,6 @@
           }
         }
     </script>
-    <script src="js/lightbox-plus-jquery.min.js"></script>
 
 </body>
 </html>
