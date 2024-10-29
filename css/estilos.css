@@ -354,13 +354,15 @@ label{
     header div, header a {
         flex: 1 0 50%;
     }
+
     header nav {
         flex-basis: 100%;
     }
     .icon {
         display: block;
         padding-right: 0.6rem;
-        text-align: right;
+        padding-bottom: 1%;
+        text-align: center;
     }
     nav ul {
         display: none;
