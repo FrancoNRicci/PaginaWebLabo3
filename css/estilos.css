@@ -379,6 +379,7 @@ label{
     }
     nav.responsive ul {
         display: block;
+        margin-bottom: 10%;
     }
     nav.responsive ul li {
         display: block;
@@ -442,15 +443,17 @@ label{
     .terciario h3{
         margin-top: 1.5%;
         font-size: 1.5rem;
+        color: #ffffff;
+        text-decoration: underline;
     }
 
     footer{
-        height: 85px;
+        height: 70px;
         justify-content: space-evenly;
     }
 
     footer img{
-        max-width: 3rem;
-        margin: 3%;
+        width: 10px;
+        padding: 1.5%;
     }
 }
