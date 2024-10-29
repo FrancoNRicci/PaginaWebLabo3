@@ -355,18 +355,24 @@ label{
         top: 0;
         z-index: 1;
     }
-    header div, header a {
-        flex: 1 0 50%;
+    header div{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    header nav {
+    header img{
+        width: 120px;
+    }
+
+    header nav ul{
         flex-basis: 100%;
+        padding: 0%;
     }
     .icon {
         display: block;
-        padding-right: 0.6rem;
-        padding-bottom: 1%;
-        text-align: center;
+        text-align: right;
     }
     nav ul {
         display: none;
@@ -382,38 +388,67 @@ label{
     nav.responsive ul li a {
         padding-right: 0;
     }
+
+    .principal div{
+        margin-bottom: 40%;
+        margin-left: 30%;
+    }
+
     section{
         max-width: 480px;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
+
     .principal{
         height: 250px;
         padding: 10%;
     }
-    .secundario{
-        margin-top: 1%;
-        display: block;
-    }
+
     .secundario div{
         margin-right: auto;
         margin-left: auto;
         width: 90%;
     }
-    .secundario div a img{
-        margin-bottom: 1rem;
+
+    .secundario div h1{
+        width: 30%;
+        font-size: 230%;
     }
-    h2{
-        font-size: 1rem;
+
+    .secundario div p{
+        font-size: 130%;
     }
-    h4{
-        font-size: 1rem;
+
+    .terciario{
+        display: block;
+        margin-top: 10%;
+        margin-bottom: 20%;
     }
+    
+    .terciario div{
+        width: 100%;
+        text-align: center;
+        margin-top: 10%;
+    }
+    
+    .terciario div img{
+        width: 100%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
+    .terciario h3{
+        margin-top: 1.5%;
+        font-size: 1.5rem;
+    }
+
     footer{
         height: 85px;
         justify-content: space-evenly;
     }
+
     footer img{
         max-width: 3rem;
         margin: 3%;
