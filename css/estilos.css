@@ -33,7 +33,7 @@ nav ul li{
 
 nav ul li a{
     font-size: 1.3rem;
-    padding-right: 2.3rem;
+    padding-right: 1.5rem;
     text-transform: uppercase;
     color: #ffffff;
 }
@@ -341,7 +341,11 @@ label{
 
 /* ESTILOS DE GALERIA */
 
-@media (max-width: 480px){ 
+.icon{
+    display: none;
+}
+
+@media (max-width: 480px){
     header{
         align-items: center;
         justify-content: space-around;
