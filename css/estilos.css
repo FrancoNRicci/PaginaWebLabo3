@@ -473,6 +473,10 @@ label{
         font-size: 1.7rem;
     }
 
+    .principal-personajes article div p a{
+        text-decoration: underline;
+    }
+
     .principal-galeria{
         display: block;
     }
