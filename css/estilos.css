@@ -363,7 +363,7 @@ label{
     }
 
     header img{
-        width: 120px;
+        width: 100px;
     }
 
     header nav ul{
@@ -419,7 +419,8 @@ label{
     }
 
     .secundario div p{
-        font-size: 130%;
+        font-size: 135%;
+        text-align: left;
     }
 
     .terciario{
@@ -454,6 +455,6 @@ label{
 
     footer img{
         width: 10px;
-        padding: 1.5%;
+        padding: 1.3%;
     }
 }
