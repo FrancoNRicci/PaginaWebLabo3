@@ -361,6 +361,7 @@ label{
         top: 0;
         z-index: 1;
     }
+
     header div{
         width: 100%;
         display: flex;
@@ -376,22 +377,27 @@ label{
         flex-basis: 100%;
         padding: 0%;
     }
+
     .icon {
         display: block;
         text-align: right;
     }
+
     nav ul {
         display: none;
     }
+
     nav.responsive ul {
         display: block;
         margin-bottom: 10%;
     }
+
     nav.responsive ul li {
         display: block;
         text-align: center;
         padding: 0.5rem;
     }
+    
     nav.responsive ul li a {
         padding-right: 0;
     }
